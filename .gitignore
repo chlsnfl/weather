@@ -1,0 +1,4 @@
+js/jquery-1.12.4.min.js
+##font 폴더 제외
+font/
+design/
