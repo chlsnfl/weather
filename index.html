@@ -23,6 +23,14 @@
 </head>
 <body>
     <div class="container">
+        <div class="text-right searchbox">
+             <div class="searchinput">
+                <input type="search" name="city" class="search-city" id="search-city">
+            </div>
+                <span class="material-icons" id="searchbtn">
+                    search
+                </span>
+          </div>
         <div class="text-center cityname" id ="cityname">장기동</div>
         <p class="text-center time" id="time">오후 05시 49분</p>
         <div class="tempbox mt-5">
@@ -48,7 +56,7 @@
                 </div>
                 <div class="wi-text">
                     <span class="nm-temp">최저 51°</span>
-                    <span class="nm-temp">최저 100°</span>
+                    <span class="nm-temp">최고 100°</span>
                 </div>
             </div>
             <div class="col-3 ntemp">
@@ -57,21 +65,76 @@
                     <i class="wi wi-day-rain"></i>
                 </div>
                 <div class="wi-text">
-                    <span class="nm-temp">최저 51°</span>
-                    <span class="nm-temp">최저 100°</span>
+                    <span class="nm-temp">최저 21°</span>
+                    <span class="nm-temp">최고 80°</span>
                 </div>
             </div>
             
         </div>
-        <div class="twotemp">
-            
+        <div class="twotemp twotemp-title">
+            세부정보
         </div>
-        <div class="threetemp">
+        <div class="twotemp twotemp-body">
+            <ul>
+                <li><label>체감온도 : </label><span id = "feels_like"></span></li>
+                <li><label>해 뜨는 시간 : </label></li>
+                <li><label>해 지는 시간 : </label></li>
+                <li><label>풍속 : </label></li>
+                <li><label>풍향 : </label></li>
+            </ul>
+        </div>
+        <div class="twotemp threetemp-title">
+            시간별 날씨
+    
+        </div>
+        <div class="twotemp threetemp-body">
+            <div class="time-weather text-center">
+                <div class="days">02.27</div>
+                <div class="times">14시</div>
+                <div class="icons">
+                    <i class = "wi wi-day-sunny"></i>
+                </div>
+                <p class="temps">-20°</p>
+            </div>
 
+            <div class="time-weather text-center">
+                <div class="days">02.27</div>
+                <div class="times">14시</div>
+                <div class="icons">
+                    <i class = "wi wi-day-sunny"></i>
+                </div>
+                <p class="temps">-20°</p>
+            </div>
 
+            <div class="time-weather text-center">
+                <div class="days">02.27</div>
+                <div class="times">14시</div>
+                <div class="icons">
+                    <i class = "wi wi-day-sunny"></i>
+                </div>
+                <p class="temps">-20°</p>
+            </div>
 
+            <div class="time-weather text-center">
+                <div class="days">02.27</div>
+                <div class="times">14시</div>
+                <div class="icons">
+                    <i class = "wi wi-day-sunny"></i>
+                </div>
+                <p class="temps">-20°</p>
+            </div>
+
+            <div class="time-weather text-center">
+                <div class="days">02.27</div>
+                <div class="times">14시</div>
+                <div class="icons">
+                    <i class = "wi wi-day-sunny"></i>
+                </div>
+                <p class="temps">-20°</p>
             </div>
         </div>
+        </div>
+        
     </div>
 </body>
 </html>
